@@ -17,10 +17,10 @@
         </div>
         <div id='generator'>
           <div id='generator-content'>
-            <img src='"https://github.com/FrankZiWANG-dev/AfterWork/blob/main/AfterWork/src/assets/images/drink-placeholder.jpg?raw=true"' alt='' id='drink'>
+            <img src='https://github.com/FrankZiWANG-dev/AfterWork/blob/main/AfterWork/src/assets/images/drink-placeholder.jpg?raw=true' alt='' id='drink'>
             <p id='name'></p>
             <p id='ingredients'></p>
-            <div>Inspire me!</div>
+            <div id='button'>Inspire me!</div>
           </div>
         </div>
       </div>
@@ -68,17 +68,27 @@ body{
     text-shadow: 2px 2px #1E1E1E;
   }
   #generator{
-    background-color: white;
-    opacity: 0.7;
+    background-color: #dbd6d6;
     
     margin-left: auto;
     margin-right: auto;
-    height: 300px;
+    padding: 10px;
+    height: 430px;
     width: 300px;
     border-radius: 10px;  
   }
-  #generator-content{
-    color: #1E1E1E;
-    opacity: 1;
+  #drink{
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  #button{
+      background-color: #1e1e1e;
+      margin-left: auto;
+      margin-right: auto;
+      width: 40%;
+      padding: 2px;
+      border-radius: 30px;
   }
 </style>
