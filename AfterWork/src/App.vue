@@ -12,16 +12,18 @@
     <div id='content'>
       <div id='generator-box'>
         <div id='generator-title'>
-          <h2>What to drink...</h2>
-          <p>Click the button to get an idea!</p>
+          <h2>What to drink...?</h2>
         </div>
-        <div id='generator'>
-          <div id='generator-content'>
-            <img src='https://github.com/FrankZiWANG-dev/AfterWork/blob/main/AfterWork/src/assets/images/drink-placeholder.jpg?raw=true' alt='' id='drink'>
-            <p id='name'></p>
-            <p id='ingredients'></p>
-            <div id='button'>Inspire me!</div>
+        <div id='generator-content'>
+          <img src='https://github.com/FrankZiWANG-dev/AfterWork/blob/main/AfterWork/src/assets/images/drink-placeholder.jpg?raw=true' alt='' id='drink'>
+          <p id='name'></p>
+          <p id='ingredients'></p>
+          <div id='intro'>
+            <p>Long day at work?<br>
+            Don't know what to get?</p>
+            <p>Click the button to get an idea!</p>
           </div>
+          <div id='button'>Inspire me!</div>
         </div>
       </div>
     </div>
@@ -66,29 +68,35 @@ body{
 }
   #generator-title{
     text-shadow: 2px 2px #1E1E1E;
+    margin: 30px;
   }
-  #generator{
+  #generator-content{
     background-color: #dbd6d6;
+    color:#1E1E1E;
     
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
+    padding: 0px;
     height: 430px;
     width: 300px;
     border-radius: 10px;  
   }
   #drink{
-    margin-top: 20px;
+    margin: 0;
+    padding: 0;
     height: 200px;
-    width: 200px;
-    border-radius: 50%;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
   }
+
   #button{
       background-color: #1e1e1e;
+      color:white;
       margin-left: auto;
       margin-right: auto;
+      margin-top: 40px;
       width: 40%;
       padding: 2px;
-      border-radius: 30px;
+      border-radius: 10px;
   }
 </style>
