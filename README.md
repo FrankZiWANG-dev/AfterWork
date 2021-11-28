@@ -1,6 +1,7 @@
 # AfterWork
 ## Project
 Simple one page application to display cocktail recipes using an API.
+Available at: https://frankziwang-dev.github.io/AfterWork/ 
 
 ## Technologies
 The website was created using VueJS and vanilla CSS only. The data is fetched using the API "TheCocktailDB" (https://www.thecocktaildb.com/). It is fully responsive.
