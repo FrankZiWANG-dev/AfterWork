@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./assets/style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+    <title>AfterWork - Cocktail Generator</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id='template'>
+        <div id='title'>
+          <h1> AfterWork </h1>
+          <p id='slogan'> " It's 5 o'clock somewhere " </p>
+        </div>
+        <div id='content'>
+          <div id='generator-box'>
+            <div id='generator-title'>
+              <h2>What to drink...?</h2>
+            </div>
+            <div id='generator-content'>
+              <img src='https://github.com/FrankZiWANG-dev/AfterWork/blob/main/assets/images/drink-placeholder.jpg?raw=true' alt='' id='drink'>
+              <p id='name'></p>
+              <p id='ingredients'></p>
+              <Intro/>
+              <div id='button'>Inspire me!</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="/src/components/intro.js"></script>
+  </body>
+</html>
